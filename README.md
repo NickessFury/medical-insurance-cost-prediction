@@ -48,7 +48,7 @@ charges   |  float   |  annual medical insurance cost
 
 # Graphs
 Distribution of insurance charges
-![dist insurance output](Images/dist_insurance_output.png) 
+![Distribution](Images/dist_insurance_output.png) 
 
 
 

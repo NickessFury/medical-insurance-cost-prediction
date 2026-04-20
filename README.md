@@ -11,10 +11,10 @@ Over the years, there has been a rise in healthcare costs. This rise (and in par
 - Predict the annual insurance cost using regression model
 
 # Dataset 
-Name of Dataset: Medcical Cost Personal Dataset
-Rows: 1,338 samples
-Features: age, sex, BMI, children, smoker, region
-Target: <charges> 
+- Name of Dataset: Medcical Cost Personal Dataset
+- Rows: 1,338 samples
+- Features: age, sex, BMI, children, smoker, region
+- Target: <charges> 
 
 Column    |  Type    |  Description
 ----------|----------|-------------------------------------------

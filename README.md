@@ -26,3 +26,41 @@ children  |  int     |  number of children covered by health insurance
 region    |  object  |  beneficiary's residential area in the US (NE, SE, SW, NW)
 charges   |  float   |  annual medical insurance cost
 
+# Workflow
+1. EDA (Exploratory Data Analysis)
+   - Summary of data
+   - Examine outliers, missing and duplicate data
+   - Examine the distribution of insurance charges
+   - Check relationships
+2. Data Preprocessing
+   - Define features
+   - Train/test split
+   - Define metrics
+3. Modelling
+   - Models tested:
+     - Linear regression model
+     - ridge regression model
+     - RandomForestRegressor model
+4. Model evaluation
+   - MAE (Mean Absolute Error)
+   - RMSE (Root Mean Squared Error)
+   - R2 (R Squared Error)
+
+# Graphs
+Distribution of insurance charges
+![Local Image](./images/dist_insurance_output.png) 
+
+
+# Model performance table
+Model                    |    MAE       |    RMSE      |    R2    |
+-------------------------|--------------|--------------|----------|
+linear regression        | 4186.508898  | 5799.587091  | 0.783346 |
+ridge regression         | 4198.141005  | 5803.084710  | 0.783085 |
+RandomForestRegressor    | 2470.926342  | 4537.517293  | 0.867380 |
+
+The random forest regressor model produced the lower error and was used to build the predictive model. 
+
+# Insights
+- Smoking dramatically increases the medical insurance cost when compared to the other features.
+- Age and BMI contribute to higher insurance costs.
+- Sex and region have minimal impact.

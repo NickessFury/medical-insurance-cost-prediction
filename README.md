@@ -48,10 +48,12 @@ charges   |  float   |  annual medical insurance cost
 
 # Graphs
 Distribution of insurance charges
-
+The distribution of the charges is right-skewed (positively skewed) indicating that majority of the people pay relatively low to moderate costs while a smaller group pay a sustantially higher cost.
 <img src="https://github.com/NickessFury/medical-insurance-cost-prediction/blob/main/Images/dist%20insurance%20output.png?raw=true" alt="Charges Distribution">
 
-
+Relationship between smoker & charges
+This is a pointer to the fact that smoking increases insurance costs
+<img src="" alt="">
 
 # Model performance table
 Model                    |    MAE       |    RMSE      |    R2    |

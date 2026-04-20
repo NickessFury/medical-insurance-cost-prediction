@@ -49,7 +49,7 @@ charges   |  float   |  annual medical insurance cost
 # Graphs
 Distribution of insurance charges
 
-![Distribution](Images/dist_insurance_output.png) 
+<img src="https://github.com/NickessFury/medical-insurance-cost-prediction/blob/main/Images/dist%20insurance%20output.png?raw=true" alt="Charges Distribution">
 
 
 

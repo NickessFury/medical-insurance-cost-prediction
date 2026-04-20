@@ -53,7 +53,10 @@ The distribution of the charges is right-skewed (positively skewed) indicating t
 
 Relationship between smoker & charges
 This is a pointer to the fact that smoking increases insurance costs
-<img src="" alt="">
+<img src="https://github.com/NickessFury/medical-insurance-cost-prediction/blob/main/Images/boxplot%20of%20charges%20by%20smoker%20group%20output.png?raw=true" alt="smoker vs charges">
+
+Relationship between BMI and charges (and the effect of smoking on them)
+<img src="" alt="BMI vs charges (coloured by smoker)">
 
 # Model performance table
 Model                    |    MAE       |    RMSE      |    R2    |

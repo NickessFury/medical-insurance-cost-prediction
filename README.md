@@ -64,7 +64,7 @@ Individuals who smoke and have high BMI for a cluster.
 
 Correlation analysis
 
-<img src="" alt="">
+<img src="https://github.com/NickessFury/medical-insurance-cost-prediction/blob/main/Images/correlation%20matrix.png?raw=true" alt="">
 
 # Model performance table
 Model                    |    MAE       |    RMSE      |    R2    |
